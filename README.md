@@ -2,11 +2,12 @@
 
 # 使用示例
 
+## 本工具是用于检查字符串是否符合一些常用（手机号、纯数字、去空格等）类型限制，可以对单个字符串添加多个校验，可以对多个字符串添加多个限制并自定义每个检验对象的错误输出。
 
 采用流式API，单句中只能添加一个校验对象及单个错误信息可以添加多种校验类型，需将校验对象写在句首。
 // 一、NSString类型校验
 ```Objective-C
-inputs  // 必选，手机号
+inputs  // 检查一个字符串是 必填、手机号 
         InputChecker *checker = [InputChecker new];
         checker.addCheckObj(@"13875148888").addLimit([InputCheckerLimit Required]).addLimit([InputCheckerLimit ChineseMobile]);
         NSLog(@"%d",[checker beganChaeck]);
@@ -19,7 +20,7 @@ inputs  // 必选，手机号
         checker.addCheckObj(checkLabel).addLimit([InputCheckerLimit Required]).addLimit([InputCheckerLimit ChineseMobile]);
         NSLog(@"%d",[checker beganChaeck]);
         
-// 必选，数字，最大20字符
+// 检查一个label是 必选，数字，最大20字符
 checker.addCheckObj(checkLabel).addLimit([InputCheckerLimit Required]).addLimit([InputCheckerLimit MaxLength:20]).addLimit([InputCheckerLimit Numeric]);
 
 // 必选，邮件

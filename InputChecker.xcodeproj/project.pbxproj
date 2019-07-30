@@ -230,6 +230,7 @@
 				TargetAttributes = {
 					27314C081F3992570090D5E8 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7YU8K4NA5V;
 						ProvisioningStyle = Automatic;
 					};
 					27314C211F3992570090D5E8 = {
@@ -249,6 +250,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -452,6 +454,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7YU8K4NA5V;
 				INFOPLIST_FILE = InputChecker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -464,6 +467,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7YU8K4NA5V;
 				INFOPLIST_FILE = InputChecker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -537,6 +541,7 @@
 				27314C381F3992570090D5E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27314C391F3992570090D5E8 /* Build configuration list for PBXNativeTarget "InputCheckerTests" */ = {
 			isa = XCConfigurationList;
@@ -545,6 +550,7 @@
 				27314C3B1F3992570090D5E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27314C3C1F3992570090D5E8 /* Build configuration list for PBXNativeTarget "InputCheckerUITests" */ = {
 			isa = XCConfigurationList;
@@ -553,6 +559,7 @@
 				27314C3E1F3992570090D5E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
